@@ -1,4 +1,5 @@
 {
+  "$schema": "https://x.nest.land/eggs@0.3.10/src/schema.json",
   "name": "simple_exec",
   "entry": "./mod.ts",
   "description": "A dead simple wrapper around the Deno.Command API for better stdout handling, by @codemonument",
