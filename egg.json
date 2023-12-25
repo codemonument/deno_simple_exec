@@ -8,10 +8,19 @@
   "unlisted": false,
   "version": "1.0.0",
   "releaseType": "major",
-  "files": ["./mod.ts", "./lib/**/*", "./README.md", "./deps.ts", "./LICENSE"],
-  "ignore": [".git"],
+  "files": [
+    "./mod.ts",
+    "./lib/**/*",
+    "./README.md",
+    "./deps/**/*",
+    "./LICENSE"
+  ],
+  "ignore": [
+    ".git"
+  ],
   "checkFormat": "deno fmt",
-  "checkTests": "deno test",
-  "checkInstallation": true,
-  "check": false
+  "checkTests": "deno task test",
+  "checkInstallation": false,
+  "check": true,
+  "checkAll": true
 }
