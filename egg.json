@@ -1,0 +1,16 @@
+{
+  "name": "simple_exec",
+  "entry": "./mod.ts",
+  "description": "A dead simple wrapper around the Deno.Command API for better stdout handling, by @codemonument",
+  "homepage": "https://github.com/codemonument/deno_simple_exec",
+  "unstable": false,
+  "unlisted": false,
+  "version": "1.0.0",
+  "releaseType": "major",
+  "files": ["./mod.ts", "./lib/**/*", "./README.md", "./deps.ts", "./LICENSE"],
+  "ignore": [".git"],
+  "checkFormat": "deno fmt",
+  "checkTests": "deno test",
+  "checkInstallation": true,
+  "check": false
+}
